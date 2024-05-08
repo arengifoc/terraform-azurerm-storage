@@ -3,6 +3,11 @@ output "storage_account_id" {
   value       = try(azurerm_storage_account.this[0].id, "")
 }
 
+output "storage_account_name" {
+  description = "The name of the Storage Account."
+  value       = try(azurerm_storage_account.this[0].name, "")
+}
+
 output "storage_account_primary_access_key" {
   description = "The primary access key for the Storage Account."
   value       = try(azurerm_storage_account.this[0].primary_access_key, "")
@@ -18,6 +23,11 @@ output "storage_account_secondary_access_key" {
 output "container_id" {
   description = "The ID of the container."
   value       = try(azurerm_storage_container.this[0].id, "")
+}
+
+output "container_name" {
+  description = "The name of the container."
+  value       = try(azurerm_storage_container.this[0].name, "")
 }
 
 output "sas_token" {

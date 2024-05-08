@@ -61,8 +61,10 @@ This module allows creating different Storage resources, such as Storage Account
 | Name | Description |
 |------|-------------|
 | <a name="output_container_id"></a> [container\_id](#output\_container\_id) | The ID of the container. |
+| <a name="output_container_name"></a> [container\_name](#output\_container\_name) | The name of the container. |
 | <a name="output_sas_token"></a> [sas\_token](#output\_sas\_token) | The computed Account Shared Access Signature (SAS). |
 | <a name="output_storage_account_id"></a> [storage\_account\_id](#output\_storage\_account\_id) | The ID of the Storage Account. |
+| <a name="output_storage_account_name"></a> [storage\_account\_name](#output\_storage\_account\_name) | The name of the Storage Account. |
 | <a name="output_storage_account_primary_access_key"></a> [storage\_account\_primary\_access\_key](#output\_storage\_account\_primary\_access\_key) | The primary access key for the Storage Account. |
 | <a name="output_storage_account_secondary_access_key"></a> [storage\_account\_secondary\_access\_key](#output\_storage\_account\_secondary\_access\_key) | The secondary access key for the Storage Account. |
 <!-- END_TF_DOCS -->
